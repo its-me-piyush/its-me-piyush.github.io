@@ -39,11 +39,6 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000/ in a modern browser. Stop the server with Ctrl+C. The 3D scene requires WebGL; if it is unavailable, use the object buttons and Bench Index to read the stories.
 
-## Publish on GitHub Pages
-
-See [START_HERE.md](./START_HERE.md) for repository settings, browser upload instructions, and troubleshooting. The intended repository is **its-me-piyush/its-me-piyush.github.io**.
-
-Publish from **main / (root)**. The `.nojekyll` file keeps this a plain static site.
 
 ## Files and editing
 
@@ -55,7 +50,6 @@ Publish from **main / (root)**. The `.nojekyll` file keeps this a plain static s
 | `monkey-trademark.png` | Personal signature and favicon |
 | `vendor/` | Three.js, OrbitControls, and their license |
 | `.nojekyll` | Bypasses Jekyll processing for branch publishing |
-| `START_HERE.md` | Launch guide and repository metadata |
 | `THIRD_PARTY_NOTICES.md` | Dependency attribution |
 
 Project content is stored in the `artifacts` object in `index.html`. Replace the resume with the same filename to update it. Update dates and current-work descriptions as projects progress. Commit changes to `main` to trigger another Pages deployment.
